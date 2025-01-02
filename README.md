@@ -36,8 +36,10 @@ pip install google-api-python-client
 pip install openai-whisper
 ```
 
-# Optional: If you get torch related errors, install torch first:
+Optional:  If you get torch related errors, install torch first:
+```
 pip install torch torchvision torchaudio
+```
 
 3. Set up Google Cloud credentials:
 - Go to Google Cloud Console
