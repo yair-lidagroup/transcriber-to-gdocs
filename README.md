@@ -61,7 +61,8 @@ Arguments:
 -l, --language: Language code for transcription (e.g., en, es). Optional - will auto-detect if not specified.
 
 
-Output Files
+Output Files:
+
 -The script generates these files for each recording:
 -recording_[timestamp].wav: The recorded audio (temporary)
 -transcription_[timestamp].txt: The transcribed text
