@@ -54,20 +54,20 @@ python script.py -c path/to/credentials.json -o path/to/openai_key.txt
 With language specification:
 python script.py -c path/to/credentials.json -o path/to/openai_key.txt -l <language_code>
 
-Arguments:
+## Arguments:
 
--c, --credentials: Path to Google OAuth credentials JSON file (default: credentials.json)
--o, --openai-key-file: Path to OpenAI API key file (default: openai_key.txt)
--l, --language: Language code for transcription (e.g., en, es). Optional - will auto-detect if not specified.
+- -c, --credentials: Path to Google OAuth credentials JSON file (default: credentials.json)
+- -o, --openai-key-file: Path to OpenAI API key file (default: openai_key.txt)
+- -l, --language: Language code for transcription (e.g., en, es). Optional - will auto-detect if not specified.
 
 
-Output Files:
+## Output Files:
 
--The script generates these files for each recording:
--recording_[timestamp].wav: The recorded audio (temporary)
--transcription_[timestamp].txt: The transcribed text
--summary_[timestamp].txt: The summarized text
--Google Doc with the summary
+The script generates these files for each recording:
+- recording_[timestamp].wav: The recorded audio (temporary)
+- transcription_[timestamp].txt: The transcribed text
+- summary_[timestamp].txt: The summarized text
+- Google Doc with the summary
 
 ## Common Issues
 
